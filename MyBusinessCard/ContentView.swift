@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack{
+        VStack{
         Image("Imagecard")
             .resizable()
             .frame(width:180, height:180, alignment: .center)
             .padding()
             .clipShape(Circle())
+            Text("My image")
+
         }
     }
 }
